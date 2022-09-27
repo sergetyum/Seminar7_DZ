@@ -30,7 +30,7 @@ void FillArray (int[,] matrix)
     {
        for (int j=0; j<n; j++)
        {
-       matrix[i,j] = new Random().Next(min,max);
+       matrix[i,j] = new Random().Next(min,max+1);
        }
     }
 }
